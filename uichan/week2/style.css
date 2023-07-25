@@ -1,109 +1,96 @@
-* {
-    list-style: none;
-}
-
 html {
-    background-color: #101820;
+    background-color: grey;
     text-align: center;
 }
 
-.header {
-    font-style: italic;
-    color: #FEE715;
-    font-weight: bold;
-    -webkit-text-stroke: 0.5px #6d683a;
+h1 {
+    margin-top: 5rem;
+    font-weight: bolder;
+    font-size: 50px;
 }
 
-.article {
-    text-align: center;
+hr {
+    border-color: rgba(85, 107, 47, 0.729);
+    border-style: groove;
+    border-width: 0.2rem;
 }
 
-.inputItem {
-    background-color: #101820;
-    margin:auto;
-    color: #FEE715;
-    border: 1px solid #FEE715;
-    width: 40%;
-    height: 35px;
-}
-
-#submit {
-    background-color: #FEE715;
+#input {
     margin: auto;
-    color: #101820;
-    width: 30px;
-    height: 30px;
-    
+    border-color: black;
+    width: 50rem;
+    height: 2rem;
+
+
+
 }
 
-.showList {
-    background-color: #FEE715;
+#addToDo {
     margin: auto;
-    color:#101820;
-    width: 45%;
+    height: 2.1rem;
+    border: none;
+
+    background-color: darkolivegreen;
+    color: black;
+    font-size: 1rem;
+
+
+
 }
 
-.option {
-    display: flex;
-    justify-content: flex-end;
-    width: 68%;
+.paragraph-style {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    ;
 }
 
-#allClick {
-    background-color: #FEE715;
+ul {
     margin: auto;
-    color: #101820;
+    margin-top: 2rem;
+    width: 54rem;
+    background-color: rgba(40, 55, 12, 0.5);
+    list-style: none;
+    padding-left: 0px;
+    border: none;
+
+}
+
+
+#ToDoList {
+
+    border: none;
+    background-color: rgba(12, 19, 2, 0);
+    font-size: 15px;
+    font-weight: 500;
+    font-style: 맑은고딕;
+    color: black;
+    padding: 1rem;
+}
+
+#changeButton,
+#saveButton {
+    color: black;
+    font-size: 12px;
+    padding: auto;
+    ;
     height: 30px;
-}
-
-#delete {
-    background-color: #FEE715;
-    margin-left: 5px;
-    color: #101820;
-    height: 30px;
-}
-
-#allList {
-    background-color: #101820;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: 1px solid #FEE715;
+    width: 40px;
+    font-weight: 500;
+    background-color: rgb(113, 113, 113);
+    border: 2px solid rgb(63, 63, 63);
+    border-radius: 5%;
 
 }
 
-.edit, .save {
-    
-    background-color: #FEE715;
-    margin-right: 5px;
-    color: #101820;
-    
+#allSelect {
+    margin: auto;
+    margin-top: 2rem;
+    height: 2.29rem;
+    border-color: darkolivegreen;
+    border-radius: 5%;
+    background-color: darkolivegreen;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
 }
-
-.content {
-    color: #FEE715;
-    margin-right: 10px;
-}
-
-#list {
-    display: flex;
-    
-}
-
-#btn {
-    display: flex;
-    align-content: flex-end;
-    margin-left: auto;
-}
-
-#listItem {
-    width: 100%;
-}
-
-#allList {
-    border: 2px solid;
-    border-image: linear-gradient(to bottom right, #FFC107, transparent 30%, transparent 50%, #ff0000c8 80%, transparent 100%) 1;
-    border-image-slice: 1;
-}
-
