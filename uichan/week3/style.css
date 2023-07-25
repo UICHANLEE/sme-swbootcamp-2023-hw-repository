@@ -1,0 +1,70 @@
+*{
+    list-style:none;
+}
+
+header{
+    height: 48px;
+    background-color: #0078D4;
+    min-width: 454px; 
+}
+
+.appName {
+    display: flex;
+    vertical-align: middle;
+}
+
+#OneDrive {
+    color: white;
+}
+
+.header-fluid {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-end {
+    justify-content: flex-end;
+}
+
+
+header button{
+    height: 48px;
+    width: 48px;
+    background-color: #0078D4;
+    border: none;
+}
+
+button.list-group-item.active {
+    background-color: #616161;
+    color: white;
+}
+
+.list-group-items {
+    background-color: #c7c7c7;
+}
+
+#searchbox {
+    background-color: white;
+    
+}
+
+nav{
+    background-color: #c7c7c7;
+    height: 100%;
+    width: 220px;
+}
+
+@media (max-width:1024px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+@media (max-width:695px) {
+    #searchbox {
+        display: none;
+    }
+}
